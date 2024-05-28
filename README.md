@@ -1,4 +1,5 @@
 Website: https://thelazycat00.github.io/Listy/
+Windows App: https://drive.google.com/file/d/1e0c9375zd21-s8uEdhidT4YGQF0bsYDC/view?usp=sharing
 
 Listy is a manager for all your tasks. Like a todo list, but more dynamic. It allows you to add sub tasks and also has features:
 
