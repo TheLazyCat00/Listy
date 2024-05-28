@@ -11,3 +11,5 @@ You can also add text to each task by clicking the text symbol of the task.
 The green checkmark will toggle the view, meaning the done tasks will be either shown or not.
 
 All tasks will be saved, meaning you don't have to worry about losing them.
+
+I'm planning on making an app for macOs too soon.
