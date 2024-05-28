@@ -217,7 +217,7 @@ function startAdd(){
 			</div>
 			<div class="field" style="height: 0;">
 				<div class="sub">
-					<input type="text" oninput="hasFile(this)" spellcheck="false">
+					<input type="text" spellcheck="false">
 					<button onclick="add(this)">+</button>
 				</div>
 			</div>
@@ -257,7 +257,7 @@ function add(element){
 			</div>
 			<div class="field" style="height: 0;">
 				<div class="sub">
-					<input type="text" oninput="hasFile(this)" spellcheck="false">
+					<input type="text" spellcheck="false">
 					<button onclick="add(this)">+</button>
 				</div>
 			</div>
@@ -388,15 +388,6 @@ function resetDone(){
 			if(element.getAttribute("data-isblue") === "false"){
 				done(undefined, element);
 			}
-		});
-	}
-}
-
-function hasFile(element){
-	if(element.value.endsWith("[file")){
-		window.electronAPI.openFileDialog();
-		window.electronAPI.selectedFile().then(path => {
-			element.value += ":///" + path;
 		});
 	}
 }
