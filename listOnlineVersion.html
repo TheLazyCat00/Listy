@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html id="html">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+        <link rel="stylesheet" href="listOnlineVersion.css">
+    </head>
+    <body onresize="changeValue()">
+        <div id="topBar">
+            <div id="drag"></div>
+            <button id="maximizeButton" onclick="maximizeMyApp()"><div></div></button>
+        </div>
+        <div id="longText">
+            <button onclick="closeText()" id="longTextButton"><</button>
+            <textarea id="longTextInput" spellcheck="false" oninput="updateText()"></textarea>
+        </div>
+        <main id="main" onmouseleave="enterTopBar()" onmouseenter="leaveTopBar()">
+            <div id="mainInput">
+                <input id="mainTextInput" type="text" oninput="hasFile(this)" spellcheck="false">
+                <button id="toggleView" onclick="toggleView()"><img src="https://cdn-icons-png.freepik.com/512/8683/8683794.png"></button>
+                <button onclick="startAdd()">+</button>
+            </div>
+            <div id="beginning" class="field">
+            </div>
+        </main>
+        <script src="listOnlineVersion.js"></script>
+    </body>
+</html>
