@@ -5,8 +5,11 @@ Windows App: https://drive.google.com/file/d/1e0c9375zd21-s8uEdhidT4YGQF0bsYDC/v
 Listy is a manager for all your tasks. Like a todo list, but more dynamic. It allows you to add sub tasks and also has features:
 
 [Day.Month] Adds a date to a task.
+
 [link, name] or [link] Adds a link to the task with a name, if specified.
+
 [weekDays, 0 1 2 3 4 5 6] Resets the task at these weekdays. Monday is 0. [weekDays, 0 1 4 6] will reset at Monday, Tuesday, Friday and sunday. By reset I mean make the task be undone.
+
 [cycle] Resets every day.
 
 You can also add text to each task by clicking the text symbol of the task.
